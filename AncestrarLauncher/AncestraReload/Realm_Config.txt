@@ -1,0 +1,26 @@
+# Fichier de configuration du serveur de connexion d'Ancestra_Remake
+# Voir https://funky-emu.net/topic/11497-installer-ancestra-remake-54/ pour l'install
+
+# AR - REALM
+
+# Port du serveur
+REALM_PORT = 443
+REALM_COM_PORT = 435
+
+# Version 1.29.1
+CLIENT_VERSION = 1.29.1
+REALM_IGNORE_VERSION = false
+
+# Base de donnée
+REALM_DB_HOST = localhost
+REALM_DB_USER = root
+REALM_DB_PASSWORD = 
+REALM_DB_NAME = ancestrar_realm
+REALM_DB_COMMIT = 3000
+
+# DEBUG (DEBUG = See on console)
+REALM_DEBUG = false
+REALM_LOG = false
+
+# Abonnement
+USE_SUBSCRIBE = false
